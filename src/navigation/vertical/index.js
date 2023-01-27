@@ -19,7 +19,7 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://explorer.zksystem.my.id/logo.svg',
+      icon: 'https://explorer.zksystem.my.id/logox.svg',
     })
   }
   chainMenus.push({ header: 'LINKS' })
