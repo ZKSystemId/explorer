@@ -25,25 +25,25 @@ function processMenu() {
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
-      title: 'Aoi Explorer',
-      href: 'https://explorer.aoinode.my.id',
+      title: 'Zk Explorer',
+      href: 'https://explorer.Zksystem.my.id',
       icon: 'ChromeIcon',
     })
   } else {
     chainMenus.push({
       title: 'Website',
-      href: 'http://aoinode.my.id',
+      href: 'http://ZkSystem.my.id',
       icon: 'LifeBuoyIcon',
     })
   }
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/Aril031',
+    href: 'https://twitter.com/mereal03',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'Github Ex',
-    href: 'https://github.com/AoiNode/',
+    href: 'https://github.com/ZKSystemId/',
     icon: 'GithubIcon',
   })
 
