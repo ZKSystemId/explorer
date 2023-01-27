@@ -11,7 +11,7 @@ export const $themeConfig = {
   app: {
     appName: 'ZKSystem', // Will update name in navigation menu (Branding)
     // eslint-disable-next-line global-require
-    appLogoImage: '/logo1.svg', // Will update logo in navigation menu (Branding)
+    appLogoImage: '/public/logo1.svg', // Will update logo in navigation menu (Branding)
   },
   layout: {
     isRTL: false,
