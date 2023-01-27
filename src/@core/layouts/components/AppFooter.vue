@@ -6,7 +6,7 @@
         class="ml-25 font-weight-bolder"
         href="#"
         target="_blank"
-      >AoiNode</b-link>
+      >ZKSystem</b-link>
     </span>
 
     <router-link
