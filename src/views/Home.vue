@@ -7,13 +7,13 @@
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Aoi Dashboard<small class="flow-left">Beta</small>
+           ZK Dashboard<small class="flow-left">Beta</small>
         </h1>
       </div>
     </b-link>
 
     <p class="mb-1">
-      AoiNode Explorer
+      Explore With ZKSystem
     </p>
     <h2 class="mb-3">
       Cosmos Ecosystem Blockchains 🚀
