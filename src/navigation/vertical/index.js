@@ -63,7 +63,6 @@ function processMenu() {
     icon: 'LifeBuoyIcon',
   })
 
-
   return chainMenus
 }
 
