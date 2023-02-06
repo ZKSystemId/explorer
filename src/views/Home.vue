@@ -5,7 +5,7 @@
       <div class="d-flex justify-content-center align-items-center">
         <vuexy-logo />
         <h1
-          class="text-primary display-4 font-weight-bolder d-none d-md-block"
+          class="text-red display-3 font-weight-bolder d-none d-md-block"
         >
            ZK Dashboard<small class="flow-left">Beta</small>
         </h1>
