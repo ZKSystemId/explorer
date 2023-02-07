@@ -15,7 +15,7 @@ export const $themeConfig = {
   },
   layout: {
     isRTL: false,
-    skin: 'semi-dark', // light, dark, bordered, semi-dark
+    skin: 'dark', // light, dark, bordered, semi-dark
     routerTransition: 'zoom-out', // zoom-fade, slide-fade, fade-bottom, fade, zoom-out, none
     type: 'vertical', // vertical, horizontal
     contentWidth: 'full', // full, boxed
@@ -26,7 +26,7 @@ export const $themeConfig = {
     navbar: {
       // ? For horizontal menu, navbar type will work for navMenu type
       type: 'static', // static , sticky , floating, hidden
-      backgroundColor: 'primary', // BS color options [primary, success, etc]
+      backgroundColor: 'light', // BS color options [primary, success, etc]
     },
     footer: {
       type: 'sticky', // static, sticky, hidden
