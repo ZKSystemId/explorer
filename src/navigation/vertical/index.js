@@ -51,7 +51,7 @@ function processMenu() {
     chainMenus.push({ header: 'Advanced' })
     chainMenus.push({
       title: 'Chart',
-      children: advanced,
+      children: adv,
       tag: `${adv.length}`,
       href: 'https://cosmospug.com/planq-chart/',
       icon: 'ChromeIcon',
@@ -59,12 +59,13 @@ function processMenu() {
     chainMenus.push({
       title: 'Price',
       tag: `${adv.length}`,
-      children: advanced,
+      children: adv,
       href: 'https://dexscreener.com/osmosis/898',
       icon: 'ChromeIcon',
     })
     chainMenus.push({
       title: 'Trade',
+      children: adv,
       tag: `${adv.length}`,
       href: 'https://frontier.osmosis.zone/pool/898',
       icon: 'LifeBuoyIcon',
