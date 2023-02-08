@@ -47,7 +47,7 @@ function processMenu() {
     href: 'https://github.com/ZKSystemId/',
     icon: 'GithubIcon',
   })
-    chainMenus.push({ header: 'Advanced' })
+    chainMenus.push({ header: 'PLANQ TOOLS' })
     chainMenus.push({
       title: 'Chart',
       href: 'https://cosmospug.com/planq-chart/',
