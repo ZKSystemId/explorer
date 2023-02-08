@@ -12,7 +12,6 @@ function processMenu() {
       route: { name: 'dashboard', params: { chain } },
     }
     blockchains.push(menu)
-    adv.push(menu)
   })
 
   if (blockchains.length > 1) {
@@ -48,30 +47,22 @@ function processMenu() {
     href: 'https://github.com/ZKSystemId/',
     icon: 'GithubIcon',
   })
-  if (adv.length > 1) {
     chainMenus.push({ header: 'Advanced' })
     chainMenus.push({
       title: 'Chart',
-      children: adv,
-      tag: `${adv.length}`,
       href: 'https://cosmospug.com/planq-chart/',
       icon: 'ChromeIcon',
     })
     chainMenus.push({
       title: 'Price',
-      tag: `${adv.length}`,
-      children: adv,
       href: 'https://dexscreener.com/osmosis/898',
       icon: 'ChromeIcon',
     })
     chainMenus.push({
       title: 'Trade',
-      children: adv,
-      tag: `${adv.length}`,
       href: 'https://frontier.osmosis.zone/pool/898',
       icon: 'LifeBuoyIcon',
     })
-  }
   return chainMenus
 }
 
