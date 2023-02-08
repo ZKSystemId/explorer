@@ -46,10 +46,7 @@ function processMenu() {
     href: 'https://github.com/ZKSystemId/',
     icon: 'GithubIcon',
   })
-  chainMenus.push({ header: 'ecosystem' })
-    chainMenus.push({
-      title: 'blockchains',
-      children:
+  chainMenus.push({ header: 'PLANQ TOOLS' })
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
@@ -65,8 +62,6 @@ function processMenu() {
     href: 'https://frontier.osmosis.zone/pool/898',
     icon: 'LifeBuoyIcon',
   })
-})
-  }
 
   return chainMenus
 }
