@@ -4,6 +4,7 @@ import { isTestnet } from '../../libs/utils'
 function processMenu() {
   const chainMenus = []
   const blockchains = []
+  const adv = []
   Object.keys(store.state.chains.config).forEach(chain => {
     const menu = {
       title: chain,
@@ -47,24 +48,24 @@ function processMenu() {
     icon: 'GithubIcon',
   })
   if (adv.length > 1) {
-  chainMenus.push({ header: 'Advanced' })
-  chainMenus.push({
-    title: 'Chart',
-    tag: `${adv.length}`,
-    href: 'https://cosmospug.com/planq-chart/',
-    icon: 'ChromeIcon',
+    chainMenus.push({ header: 'Advanced' })
+    chainMenus.push({
+      title: 'Chart',
+      tag: `${adv.length}`,
+      href: 'https://cosmospug.com/planq-chart/',
+      icon: 'ChromeIcon',
   })
-  chainMenus.push({
-    title: 'Price',
-    tag: `${adv.length}`,
-    href: 'https://dexscreener.com/osmosis/898',
-    icon: 'ChromeIcon',
+    chainMenus.push({
+      title: 'Price',
+      tag: `${adv.length}`,
+      href: 'https://dexscreener.com/osmosis/898',
+      icon: 'ChromeIcon',
   })
-  chainMenus.push({
-    title: 'Trade',
-    tag: `${adv.length}`,
-    href: 'https://frontier.osmosis.zone/pool/898',
-    icon: 'LifeBuoyIcon',
+    chainMenus.push({
+      title: 'Trade',
+      tag: `${adv.length}`,
+      href: 'https://frontier.osmosis.zone/pool/898',
+      icon: 'LifeBuoyIcon',
   })
 }
   return chainMenus
