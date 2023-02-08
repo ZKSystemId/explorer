@@ -54,20 +54,20 @@ function processMenu() {
       tag: `${adv.length}`,
       href: 'https://cosmospug.com/planq-chart/',
       icon: 'ChromeIcon',
-  })
+    })
     chainMenus.push({
       title: 'Price',
       tag: `${adv.length}`,
       href: 'https://dexscreener.com/osmosis/898',
       icon: 'ChromeIcon',
-  })
+    })
     chainMenus.push({
       title: 'Trade',
       tag: `${adv.length}`,
       href: 'https://frontier.osmosis.zone/pool/898',
       icon: 'LifeBuoyIcon',
-  })
-}
+    })
+  }
   return chainMenus
 }
 
