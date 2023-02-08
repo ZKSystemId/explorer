@@ -51,6 +51,7 @@ function processMenu() {
     chainMenus.push({ header: 'Advanced' })
     chainMenus.push({
       title: 'Chart',
+      children: advanced,
       tag: `${adv.length}`,
       href: 'https://cosmospug.com/planq-chart/',
       icon: 'ChromeIcon',
@@ -58,6 +59,7 @@ function processMenu() {
     chainMenus.push({
       title: 'Price',
       tag: `${adv.length}`,
+      children: advanced,
       href: 'https://dexscreener.com/osmosis/898',
       icon: 'ChromeIcon',
     })
