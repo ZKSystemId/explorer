@@ -12,6 +12,7 @@ function processMenu() {
       route: { name: 'dashboard', params: { chain } },
     }
     blockchains.push(menu)
+    adv.push(menu)
   })
 
   if (blockchains.length > 1) {
