@@ -47,22 +47,22 @@ function processMenu() {
     href: 'https://github.com/ZKSystemId/',
     icon: 'GithubIcon',
   })
-    chainMenus.push({ header: 'PLANQ TOOLS' })
-    chainMenus.push({
-      title: 'Chart',
-      href: 'https://cosmospug.com/planq-chart/',
-      icon: 'ChromeIcon',
-    })
-    chainMenus.push({
-      title: 'Price',
-      href: 'https://dexscreener.com/osmosis/898',
-      icon: 'ChromeIcon',
-    })
-    chainMenus.push({
-      title: 'Trade',
-      href: 'https://frontier.osmosis.zone/pool/898',
-      icon: 'LifeBuoyIcon',
-    })
+  chainMenus.push({ header: 'PLANQ TOOLS' })
+  chainMenus.push({
+    title: 'Chart',
+    href: 'https://cosmospug.com/planq-chart/',
+    icon: 'ChromeIcon',
+  })
+  chainMenus.push({
+    title: 'Price',
+    href: 'https://dexscreener.com/osmosis/898',
+    icon: 'ChromeIcon',
+  })
+  chainMenus.push({
+    title: 'Trade',
+    href: 'https://frontier.osmosis.zone/pool/898',
+    icon: 'LifeBuoyIcon',
+  })
   return chainMenus
 }
 
