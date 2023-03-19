@@ -1,0 +1,16 @@
+{
+    "chain_name": "bonusblock-testnet",
+    "api": ["https://bonusblock-testnet.alter.network:443/rest"],
+    "rpc": ["https://bonusblock-testnet.alter.network:443"],
+    "sdk_version": "0.45.11",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "addr_prefix": "bonus",
+    "logo": "/logos/bonus.png",
+    "assets": [{
+        "base": "ubonus",
+        "symbol": "bonus",
+        "exponent": "6",
+        "logo": "/logos/bonus.png"
+    }]
+  }
